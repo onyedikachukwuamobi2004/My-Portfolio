@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amobi Onyedikachukwu Favour - Frontend Developer</title>
+  <link rel="stylesheet" href="styles/new-portfolio.css" />
+</head>
+<body>
+  <header>
+    <div>
+        <img class="profile-picture" src="profile/profile.jpg">
+    </div>
+    <h1>Amobi Onyedikachukwu Favour</h1>
+    <p>Self-Taught Frontend Developer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+        I'm a passionate self-taught junior frontend developer with a strong foundation in HTML, CSS, and JavaScript. I enjoy building responsive, user-friendly interfaces and continuously learning new tools to improve my craft. Currently enhancing my skills through hands-on projects and eager to contribute to a dynamic development team.
+    </p>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project"><h3>YouTube Clone</h3><p>HTML & CSS</p></div>
+      <div class="project"><h3>To-Do List App</h3><p>JavaScript</p></div>
+      <div class="project"><h3>Rock Paper Scissors</h3><p>JavaScript</p></div>
+      <div class="project"><h3>Amazon Clone</h3><p>HTML, CSS, JS</p></div>
+    </div>
+</section>
+
+<section class="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>Git & GitHub</li>
+    <li>Responsive Design</li>
+</ul>
+</section>
+
+<section class="contact">
+  <h2>Contact</h2>
+  <p>Email: onyedikachukwuamobi@gmail.com</p>
+  <p>LinkedIn: Onyedikachukwu Amobi</p>
+</section>
+
+<footer>
+  <p>© 2025 Amobi Onyedikachukwu</p>
+</footer>
+
+<script>
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.2 });
+  
+    sections.forEach(section => observer.observe(section));
+  </script>
+  
+</body>
+</html>
