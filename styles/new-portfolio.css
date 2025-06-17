@@ -108,7 +108,8 @@
   
   /* Animation Script */
 
-  .rock-paper-scissors {
+  .rock-paper-scissors,
+  .todo-list {
     color:  white;
   }
       
