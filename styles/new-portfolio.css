@@ -107,8 +107,9 @@
   }
   
   /* Animation Script */
-
+  .amazon-clone,
   .rock-paper-scissors,
+  .youtube-clone,
   .todo-list {
     color:  white;
   }
