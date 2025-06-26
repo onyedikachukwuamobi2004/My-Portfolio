@@ -68,7 +68,7 @@
   /* Skills List */
   .skills ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;
     list-style: none;
   gap: 10px;
 }
