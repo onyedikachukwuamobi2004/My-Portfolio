@@ -4,12 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Amobi Onyedikachukwu Favour - Frontend Developer</title>
-  <link rel="stylesheet" href="styles/new-portfolio.css" />
+  <link rel="stylesheet" href="./css/main.css" />
 </head>
 <body>
   <header>
     <div>
-        <img class="profile-picture" src="profile/profile.jpg">
+        <img class="profile-picture" src="./assets/images/profile.jpg" alt="Amobi Onyedikachukwu Profile Picture" />
     </div>
     <h1>Amobi Onyedikachukwu Favour</h1>
     <p>Self-Taught Frontend Developer</p>
@@ -39,8 +39,10 @@
       </div>
       <div class="project">
         <h3>
-         <a class="amazon-clone" href="https://onyedikachukwuamobi2004.github.io/Amazon-clone-project/">Amazon Clone</a> 
-        </h3><p>HTML, CSS, JS</p></div>
+          <a class="amazon-clone" href="https://onyedikachukwuamobi2004.github.io/Amazon-clone-project/">Amazon Clone</a> 
+        </h3>
+        <p>HTML, CSS, JS</p>
+      </div>
     </div>
 </section>
 
@@ -51,7 +53,7 @@
     <li>CSS3</li>
     <li>JavaScript</li>
     <li>Git & GitHub</li>
-    <li>Responsive Design</li>
+    <li>Responsive Design</li>
 </ul>
 </section>
 
@@ -64,7 +66,9 @@
 
 <section class="contact">
   <h2>My learning Journey</h2>
-  <p>As a self-taught developer, I’ve built a solid foundation by practicing small projects and exercises. You can explore some of these lessons and practice files on my <a class="github" href="https://github.com/onyedikachukwuamobi2004/javascript-lessons" target="_blank">GitHub Learning Repo</a></p>
+  <p>
+    As a self-taught developer, I've built a solid foundation by practicing small projects and exercises. You can explore some of these lessons and practice files on my <a class="github" href="https://github.com/onyedikachukwuamobi2004/javascript-lessons" target="_blank">GitHub Learning Repo</a>
+  </p>
 
 </section>
 
@@ -72,18 +76,8 @@
   <p>© 2025 Amobi Onyedikachukwu</p>
 </footer>
 
-<script>
-    const sections = document.querySelectorAll('section');
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.2 });
-  
-    sections.forEach(section => observer.observe(section));
-  </script>
+<script src="./js/main.js"></script>
+<script src="http://localhost:35729/livereload.js?snipver=1"></script>
   
 </body>
 </html>

@@ -1,0 +1,32 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onyedikachukwuamobi2004/My-Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "personal"
+  ],
+  "author": "Onyedikachukwu Amobi",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/onyedikachukwuamobi2004/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/onyedikachukwuamobi2004/My-Portfolio#readme",
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
